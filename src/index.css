@@ -14,12 +14,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background: rgb(24, 146, 237);
-  background: linear-gradient(
-    323deg,
-    rgba(24, 146, 237, 0.9920343137254902) 20%,
-    rgba(34, 37, 75, 1) 100%
-  );
 }
 
 .movie {
@@ -31,7 +25,7 @@ body {
   border: 2px solid azure;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .movie img {
@@ -57,4 +51,5 @@ body {
 
 .movie:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }

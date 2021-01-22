@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
       <Navbar className="justify-content-between" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">Movie-app</Navbar.Brand>
         <Form onSubmit={e => { e.preventDefault(); }} inline>
           <FormControl value = {searchTerm} onChange={handleOnChange} type="text" placeholder="Search" className="search mr-sm-2" />
           <Button onClick={searchMovie} variant="outline-info">Search</Button>

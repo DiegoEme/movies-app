@@ -53,3 +53,12 @@ body {
   transform: scale(1.02);
   cursor: pointer;
 }
+
+.detail-container {
+  height: 100%;
+  margin-top: 5em;
+}
+.description {
+  color: #c1e6ff;
+  margin: 1em;
+}
